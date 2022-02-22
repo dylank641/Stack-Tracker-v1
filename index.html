@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+    <!--title topbar-->
+    <div class="topbar">
+        <h2>Stocks and Thots</h2>
+    </div>
+
+    <!--content-->
+    <div class="content">
+        <!--search section-->
+        <div class="search-section">
+            <h3 class="title">Search for a Stock:</h3>
+            <div class="inputs">
+                <input type="text" placeholder="Ticker Name" id="stockName" class="form-input" />
+                <input type="text" placeholder="Start Date (YYYY-MM-DD)" id="startDate" class="form-input" />
+                <input type="text" placeholder="End Date (YYYY-MM-DD)" id="endDate" class="form-input" />
+            </div>
+            <button class="searchBtn" id="searchB">Search</button>
+            <hr style="width:25vw;text-align:left;margin-top:20px">
+        </div>
+        
+        <!--results section-->
+        <div class="results-section">
+            <section>
+                <div class="weather-cards">
+                    <h3>Data:</h3>
+                    <div class="cards">
+                        <div class="card1">
+                            <h5 class="marketCap test">Previous Day Close(LDO)</h5>
+                            <div>
+                                <p class="data" id="test"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card2">
+                            <h5 class="marketCap test">Weighted Shares Outstanding</h5>
+                            <div>
+                                <p class="data" id="sharesOut"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card3">
+                            <h5 class="marketCap">Price at Open</h5>
+                            <div>
+                                <p class="data" id="priceAtOpen"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card4">
+                            <h5 class="marketCap test">Price at Close</h5>
+                            <div>
+                                <p class="data" id="priceAtClose"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap test">Total Volume on Day</h5>
+                            <div>
+                                <p class="data" id="volume"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap test">VWAP at Close</h5>
+                            <div>
+                                <p class="data" id="vwap"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap test">Pre-Market Volume</h5>
+                            <div>
+                                <p class="data" id="preMarketV"></p>
+                            </div>
+                            <button class="copyBtn">Copy</button>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap">Previous Day Close</h5>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap">Total Volume on Day</h5>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap">Total Volume on Day</h5>
+                        </div>
+                        <div class="card5">
+                            <h5 class="marketCap">Total Volume on Day</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
+</body>
+</html>
