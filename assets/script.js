@@ -23,7 +23,7 @@ var basicData = function(){
     .then(function(results){
         document.getElementById('priceAtOpen').innerHTML = results.results[11].o;
         document.getElementById('priceAtClose').innerHTML = results.results[23].c;
-        document.getElementById('vwap').innerHTML = results.results[31].vw;
+        document.getElementById('vwap').innerHTML = results.results[28].vw;
         let zero = results.results[0].v;
         let one = results.results[1].v;
         let two = results.results[2].v;
